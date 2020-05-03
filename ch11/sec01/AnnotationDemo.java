@@ -43,8 +43,8 @@ public abstract class AnnotationDemo {
     @BugReport(showStopper=true, reportedBy="Joe")
     public void checkMoreRandomInsertions() {}
     
-    @BugReport(showStopper=true, reportedBy="Joe")
-    @BugReport(reportedBy={"Harry", "Carl"})
+    //@BugReport(showStopper=true, reportedBy="Joe")
+    //@BugReport(reportedBy={"Harry", "Carl"})
     public void checkEvenMoreRandomInsertions() {}
     
     public abstract List<?> getList(String table);
